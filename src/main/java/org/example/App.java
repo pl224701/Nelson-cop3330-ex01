@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("What is your name?");
+        System.out.print("What is your name?");
         Scanner sc= new Scanner(System.in);
         String str = sc.nextLine();
         System.out.printf("Hello, %s, nice to meet you!", str);
